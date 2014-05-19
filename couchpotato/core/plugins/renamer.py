@@ -274,7 +274,7 @@ class Renamer(Plugin):
                     except:
                         log.error('Failed getting category label: %s', traceback.format_exc())
                 # Overwrite destination when set in 3D
-                destination = to_folder
+                #destination = to_folder
                 test3D = group['meta_data']['quality'].get('is_3d', 0)
 
                 if test3D :
